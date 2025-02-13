@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 20px 0;
+}
+
+#image-container img {
+    max-width: 100%; /* ป้องกันรูปใหญ่เกินไป */
+    height: auto; /* ปรับขนาดอัตโนมัติ */
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}

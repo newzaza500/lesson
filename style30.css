@@ -1,0 +1,109 @@
+*
+body 
+{
+    background-color: rgb(255, 255, 255);
+    background-size: cover; /* ทำให้ภาพครอบคลุมทั้งหน้า */
+    background-position: center; /* จัดตำแหน่งภาพให้อยู่กลางหน้า */
+    background-repeat: no-repeat; /* ไม่ให้ภาพซ้ำ */
+    margin: 0;
+    padding: 0;
+}
+.child
+{
+    width: 1;
+    height: 1;
+}
+.container3
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.child2
+{
+    width: 1400px;
+    height: 300px;
+    justify-content: flex-start;
+}
+.childheader
+{
+    max-width: 1000px;
+    margin: 40px auto;
+    
+    text-align: center;
+    padding: 0rem;
+    display: flex;
+}
+.childDM2
+{
+    width: 250px;
+    height: 150px;
+}
+.childDM3
+{
+    width: 200px;
+    height: 150px;
+    
+}
+.childheader1
+{
+    margin: 0px auto;
+    background-color: #ffffff;
+    padding: 0rem;
+    display: flex;
+}
+.container4
+{
+    margin: 50px ;
+    padding: 1rem ;
+}
+img {
+    width: 300px; /* ขนาดเริ่มต้น */
+    height: auto;
+  }
+  
+  @media screen and (min-width: 450px) {
+    img {
+      width: 400px; /* ขนาดใหญ่ขึ้นเมื่อจอเกิน 360px */
+      height: auto;
+    }
+  }
+.text-overlay h1
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw; /* ปรับขนาดตามจอ */
+    color: white;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+.carousel-item img 
+{
+    max-height: 60vh; /* ป้องกันไม่ให้ภาพใหญ่เกินไป */
+    width: 100%;
+    object-fit: cover; /* ปรับภาพให้พอดีกับขนาด */
+}
+.error 
+{
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success 
+{
+    border-top: 0cap;
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+}

@@ -1,0 +1,403 @@
+*
+body 
+{
+    background-color: rgb(189, 215, 189);
+    background-size: cover; /* ทำให้ภาพครอบคลุมทั้งหน้า */
+    background-position: center; /* จัดตำแหน่งภาพให้อยู่กลางหน้า */
+    background-repeat: no-repeat; /* ไม่ให้ภาพซ้ำ */
+    margin: 0;
+    padding: 0;
+}
+form 
+{
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #b0c4de;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.homeheader 
+{
+    text-align: center;
+    font-size: 5rem;
+}
+.homecontent 
+{
+    text-align: center;
+    padding-top: 3rem;
+    width: 100%;
+    background: #ccc;
+    height: 100vh;
+}
+.input-group 
+{
+    margin: 10px 0px 10px 0px;
+}
+.input-group label 
+{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input 
+{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn1 
+{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5f9ea0;
+    border: none;
+    border-radius: 5px;
+}
+.error 
+{
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success 
+{
+    border-top: 0cap;
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+    margin-bottom:20px;
+    
+}
+body div h2
+{
+    width: 4%;
+    margin: 90px auto 30px;
+    border-radius: 10px 10px 0px 0px
+}
+.toggle
+{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    color: #000000;
+    line-height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.container
+{
+    max-width: 1050px;
+    margin: 30px auto;
+}
+.container2
+{
+    max-width: 1050px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 5rem;
+}
+.child
+{
+    width: 1;
+    height: 1;
+}
+/* ส่วนของปกบทแต่ละบท */
+.container10
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* ส่วนของรูปภาพ */
+    background-image: url('pictures/b1.jpg'); /* เปลี่ยนเป็นพาธของภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0); /* ปรับสีข้อความให้ตัดกับพื้นหลัง */
+    font-size: 36px;
+    font-weight: bold;
+}
+.container11
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* ส่วนของรูปภาพ */
+    background-image: url('pictures/b2.jpg'); /* เปลี่ยนเป็นพาธของภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0); /* ปรับสีข้อความให้ตัดกับพื้นหลัง */
+    font-size: 36px;
+    font-weight: bold;
+}
+.container12
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* ส่วนของรูปภาพ */
+    background-image: url('pictures/b3.jpg'); /* เปลี่ยนเป็นพาธของภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0); /* ปรับสีข้อความให้ตัดกับพื้นหลัง */
+    font-size: 36px;
+    font-weight: bold;
+}
+.container13
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* ส่วนของรูปภาพ */
+    background-image: url('pictures/bj4.png'); /* เปลี่ยนเป็นพาธของภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0); /* ปรับสีข้อความให้ตัดกับพื้นหลัง */
+    font-size: 36px;
+    font-weight: bold;
+}
+.container14
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* ส่วนของรูปภาพ */
+    background-image: url('pictures/b5.jpg'); /* เปลี่ยนเป็นพาธของภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0); /* ปรับสีข้อความให้ตัดกับพื้นหลัง */
+    font-size: 36px;
+    font-weight: bold;
+}
+.container15
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* ส่วนของรูปภาพ */
+    background-image: url('pictures/b6.png'); /* เปลี่ยนเป็นพาธของภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0); /* ปรับสีข้อความให้ตัดกับพื้นหลัง */
+    font-size: 36px;
+    font-weight: bold;
+}
+.container16
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* ส่วนของรูปภาพ */
+    background-image: url('pictures/b7.jpg'); /* เปลี่ยนเป็นพาธของภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0); /* ปรับสีข้อความให้ตัดกับพื้นหลัง */
+    font-size: 36px;
+    font-weight: bold;
+}
+.container17
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* ส่วนของรูปภาพ */
+    background-image: url('pictures/b8.jpg'); /* เปลี่ยนเป็นพาธของภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0); /* ปรับสีข้อความให้ตัดกับพื้นหลัง */
+    font-size: 36px;
+    font-weight: bold;
+}
+.container18
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* ส่วนของรูปภาพ */
+    background-image: url('pictures/b9.png'); /* เปลี่ยนเป็นพาธของภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0); /* ปรับสีข้อความให้ตัดกับพื้นหลัง */
+    font-size: 36px;
+    font-weight: bold;
+}
+.container19
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* ส่วนของรูปภาพ */
+    background-image: url('pictures/b10.png'); /* เปลี่ยนเป็นพาธของภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0); /* ปรับสีข้อความให้ตัดกับพื้นหลัง */
+    font-size: 36px;
+    font-weight: bold;
+}
+.container20
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* ส่วนของรูปภาพ */
+    background-image: url('pictures/b11.png'); /* เปลี่ยนเป็นพาธของภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0); /* ปรับสีข้อความให้ตัดกับพื้นหลัง */
+    font-size: 36px;
+    font-weight: bold;
+}
+.container21
+{
+    max-width: 1550px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* ส่วนของรูปภาพ */
+    background-image: url('pictures/b12.png'); /* เปลี่ยนเป็นพาธของภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0); /* ปรับสีข้อความให้ตัดกับพื้นหลัง */
+    font-size: 36px;
+    font-weight: bold;
+}
+.child2
+{
+    width: 1400px;
+    height: 300px;
+    justify-content: flex-start;
+}
+.childheader
+{
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 0rem;
+    display: flex;
+}
+.childDM
+{
+    width: 200px;
+    height: 150px;
+}
+.childDM2
+{
+    width: 250px;
+    height: 150px;
+}
+.container4
+{
+    margin: 50px ;
+    padding: 1rem ;
+}
+.childDM3
+{
+    width: 200px;
+    height: 150px;
+    background: hsl(0, 0%, 100%);
+}
+.childheader1
+{
+    margin: 0px auto;
+    padding: 0rem;
+    display: flex;
+}
+.container5
+{
+    max-width: 490px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0rem;
+}
+.lesson
+{
+    position: relative;
+}
+.lesson ul
+{
+    margin: 0;
+}
+.lesson ul li
+{
+    list-style: none;
+}
+.lesson ul li a
+{
+    list-style: none;
+}
+.bd-placeholder-img 
+{
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+img {
+    width: 300px; /* ขนาดเริ่มต้น */
+    height: auto;
+  }
+  
+  @media screen and (min-width: 450px) {
+    img {
+      width: 400px; /* ขนาดใหญ่ขึ้นเมื่อจอเกิน 360px */
+      height: auto;
+    }
+  }

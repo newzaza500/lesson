@@ -1,0 +1,277 @@
+
+body 
+{
+    background-image: url('pictures/wior.jpg'); /* ใส่ที่อยู่ของไฟล์ภาพที่ต้องการใช้ */
+            background-size: cover; /* ทำให้ภาพครอบคลุมทั้งหน้า */
+            background-position: center; /* จัดตำแหน่งภาพให้อยู่กลางหน้า */
+            background-repeat: no-repeat; /* ไม่ให้ภาพซ้ำ */
+            margin: 0;
+            padding: 5;
+            height: 100vh; /* ทำให้สูงเท่ากับหน้าจอ */
+}
+form 
+{
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #b0c4de;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.homeheader 
+{
+    text-align: center;
+    font-size: 5rem;
+}
+.homecontent 
+{
+    text-align: center;
+    padding-top: 3rem;
+    width: 100%;
+    background: #ccc;
+    height: 100vh;
+}
+.input-group 
+{
+    margin: 10px 0px 10px 0px;
+}
+.input-group label 
+{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input 
+{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn1 
+{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5f9ea0;
+    border: none;
+    border-radius: 5px;
+}
+.error 
+{
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success 
+{
+    border-top: 0cap;
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+    margin-bottom:20px;
+    
+}
+body div h2
+{
+    width: 4%;
+    margin: 90px auto 30px;
+    border-radius: 10px 10px 0px 0px
+}
+.toggle
+{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    color: #000000;
+    line-height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width: 960px) {
+    .toggle {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    header nav ul {
+        position: absolute;
+        width: 100%;
+        background: #ffffff;
+        top: 60px;
+        left: -100%;
+        transition: 0.5s;
+    }
+
+    header nav ul.active {
+        left: 0;
+    }
+
+    header nav ul li {
+        padding: 10px;
+        text-align: center;
+    }
+}
+.container
+{
+    max-width: 1050px;
+    margin: 30px auto;
+}
+.container2
+{
+    max-width: 1050px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 5rem;
+}
+.child
+{
+    width: 1;
+    height: 1;
+}
+.child2
+{
+    width: 1400px;
+    height: 300px;
+    justify-content: flex-start;
+}
+.childheader
+{
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 0rem;
+    display: flex;
+}
+.childDM
+{
+    width: 200px;
+    height: 150px;
+}
+.childDM2
+{
+    width: 250px;
+    height: 150px;
+}
+.container4
+{
+    margin: 0px auto;
+    padding: 5rem;
+}
+.childDM3
+{
+    width: 200px;
+    height: 150px;
+    background: hsl(0, 0%, 100%);
+}
+.childheader1
+{
+    margin: 0px auto;
+    padding: 0rem;
+    display: flex;
+}
+.container5
+{
+    max-width: 490px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0rem;
+}
+.lesson
+{
+    position: relative;
+}
+.lesson ul
+{
+    margin: 0;
+}
+.lesson ul li
+{
+    list-style: none;
+}
+.lesson ul li a
+{
+    list-style: none;
+}
+.bd-placeholder-img 
+{
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+@media screen and (max-width: 768px) {
+    .homeheader {
+        font-size: 3rem; /* ลดขนาดตัวอักษร */
+    }
+
+    .homecontent {
+        padding-top: 2rem;
+        height: auto; /* ป้องกัน content ล้นจอ */
+    }
+    .childheader {
+        flex-direction: column; /* เรียงเป็นแนวตั้ง */
+    }
+
+    .childDM2 {
+        width: 90%; /* ให้เต็มจอมากขึ้น */
+        margin: 10px auto;
+    }
+}
+/* ตั้งค่าหลัก */
+.container3 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+/* ปรับตำแหน่งของ childheader ให้เรียงกัน */
+.childheader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* ทำให้แถวใหม่เมื่อจอเล็ก */
+    gap: 20px; /* ระยะห่างระหว่างแต่ละกล่อง */
+}
+
+/* ตั้งค่ากล่องของแต่ละสมาชิก */
+.childDM2 {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%; /* ให้แต่ละกล่องมีขนาด 30% ของหน้าจอ */
+    min-width: 250px; /* ป้องกันขนาดกล่องเล็กเกินไป */
+}
+
+/* ปรับแต่งสำหรับหน้าจอมือถือ */
+@media (max-width: 768px) {
+    .childheader {
+        flex-direction: column; /* เรียงเป็นแนวตั้ง */
+    }
+
+    .childDM2 {
+        width: 100%; /* ทำให้เต็มจอ */
+    }
+}
+.card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    text-align: center;
+}
+.card p {
+    margin: 5px 0;
+    font-size: 1rem;
+}

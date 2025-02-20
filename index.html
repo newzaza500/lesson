@@ -51,19 +51,6 @@
                 ?>
             </h3>
         </div>
-
-        <script>
-            // ตั้งเวลาหลังจาก 3 วินาทีให้ข้อความจางหายไป
-            setTimeout(function(){
-                let message = document.getElementById("success-message");
-                if (message) {
-                    message.style.opacity = "0"; // ทำให้จางลง
-                    setTimeout(() => message.style.display = "none", 1000); // ซ่อนถาวรหลังจากจางหาย
-                }
-            }, 1000);
-        </script>
-    <?php endif ?>
-
 </body>
 </html>
 <!-- ส่วนของสไลด์โชว์ -->

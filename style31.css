@@ -113,6 +113,11 @@ body div h2
     width: 1;
     height: 1;
 }
+.container4
+{
+    margin: 0px ;
+    padding: 1.5rem ;
+}
 /* ส่วนของปกบทแต่ละบท */
 .container10
 {
@@ -342,11 +347,7 @@ body div h2
     width: 250px;
     height: 150px;
 }
-.container4
-{
-    margin: 0px ;
-    padding: 1.5rem ;
-}
+
 .childDM3
 {
     width: 200px;

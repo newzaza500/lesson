@@ -66,7 +66,7 @@ img {
   
   @media screen and (min-width: 450px) {
     img {
-      width: 400px; /* ขนาดใหญ่ขึ้นเมื่อจอเกิน 360px */
+      width: 400px; /* ขนาดใหญ่ขึ้นเมื่อจอเกิน 450px */
       height: auto;
     }
   }

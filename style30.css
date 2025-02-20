@@ -68,6 +68,7 @@ img {
     img {
       width: 400px; /* ขนาดใหญ่ขึ้นเมื่อจอเกิน 450px */
       height: auto;
+        padding: 2.5rem ;
     }
   }
 .text-overlay h1

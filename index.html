@@ -13,9 +13,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-
-
-
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
@@ -41,18 +38,6 @@
     </div>
   </div>
 </nav>
-
-<?php if (isset($_SESSION['success'])) : ?>
-        <div class="success" id="success-message">
-            <h3>
-                <?php 
-                    echo $_SESSION['success'];
-                    unset($_SESSION['success']); // ลบค่า session ทันทีหลังจากแสดง
-                ?>
-            </h3>
-        </div>
-</body>
-</html>
 <!-- ส่วนของสไลด์โชว์ -->
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <!-- จุดกำหนดการแสดงสไลด์ -->

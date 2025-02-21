@@ -65,7 +65,11 @@ img {
   }
   
   @media screen and (min-width: 450px) {
+    .container4
+{
+    margin: 0px ;
     padding: 2.5rem ;
+}
       img {
       width: 400px; /* ขนาดใหญ่ขึ้นเมื่อจอเกิน 450px */
       height: auto;
